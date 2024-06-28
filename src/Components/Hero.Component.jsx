@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants/index';
-import picture from '../assets/Kunal Chauhan Profile.jpg';
+import picture from '../assets/1st.jpeg';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { delay, motion } from 'framer-motion';
 
@@ -15,7 +15,7 @@ const container = (delay) => ({
 
 const Hero = () => {
     const [text] = useTypewriter({
-        words: ['Web Developer','IoT Engineer','AI/ML Engineer','Python Developer','Java Developer','Researcher'],
+        words: ['Data Scientist','AI/ML Engineer','Python Developer','Data Analysis'],
         loop: {},
         typeSpeed:230,
     });
@@ -29,7 +29,7 @@ const Hero = () => {
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
-                        className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">Kunal Chauhan</motion.h1>
+                        className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">Bhudil Mallick</motion.h1>
                         <motion.span
                         variants={container(0.5)}
                         initial="hidden"

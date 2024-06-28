@@ -28,53 +28,11 @@ const Technologies = () => {
         transition={{duration:1.5}} 
         className="flex flex-wrap items-center justify-center gap-4">
             <motion.div
-            variants={iconVariants(2)}
-            initial = "initial"
-            animate = "animate"
-            className="rounded-2xl border-4 bg-neutral-800 p-4">
-                <RiReactjsLine className="text-7xl text-cyan-400"/>
-            </motion.div>
-            <motion.div
             variants={iconVariants(3)}
             initial = "initial"
             animate = "animate"
             className="rounded-2xl border-4 bg-neutral-800 p-4">
                 <FaPython className="text-7xl text-yellow-400"/>
-            </motion.div>
-            <motion.div
-            variants={iconVariants(5)}
-            initial = "initial"
-            animate = "animate"
-            className="rounded-2xl border-4 bg-neutral-800 p-4">
-                <FaJava className="text-7xl text-cyan-800"/>
-            </motion.div>
-            <motion.div
-            variants={iconVariants(2)}
-            initial = "initial"
-            animate = "animate"
-            className="rounded-2xl border-4 bg-neutral-800 p-4">
-                <SiArduino className="text-7xl text-cyan-800"/>
-            </motion.div>
-            <motion.div
-            variants={iconVariants(3)}
-            initial = "initial"
-            animate = "animate"
-            className="rounded-2xl border-4 bg-neutral-800 p-4">
-                <FaHtml5 className="text-7xl text-orange-500"/>
-            </motion.div>
-            <motion.div
-            variants={iconVariants(5)}
-            initial = "initial"
-            animate = "animate"
-            className="rounded-2xl border-4 bg-neutral-800 p-4">
-                <FaCss3 className="text-7xl text-cyan-400"/>
-            </motion.div>
-            <motion.div
-            variants={iconVariants(2)}
-            initial = "initial"
-            animate = "animate"
-            className="rounded-2xl border-4 bg-neutral-800 p-4">
-                <FaJsSquare className="text-7xl text-yellow-400"/>
             </motion.div>
             <motion.div
             variants={iconVariants(3)}
@@ -83,13 +41,7 @@ const Technologies = () => {
             className="rounded-2xl border-4 bg-neutral-800 p-4">
                 <SiCplusplus className="text-7xl text-blue-400"/>
             </motion.div>
-            <motion.div
-            variants={iconVariants(5)}
-            initial = "initial"
-            animate = "animate"
-            className="rounded-2xl border-4 bg-neutral-800 p-4">
-                <SiMongodb className="text-7xl text-green-500"/>
-            </motion.div>
+            
             <motion.div
             variants={iconVariants(2)}
             initial = "initial"
@@ -97,13 +49,7 @@ const Technologies = () => {
             className="rounded-2xl border-4 bg-neutral-800 p-4">
                 <SiMysql className="text-7xl text-cyan-300"/>
             </motion.div>
-            <motion.div
-            variants={iconVariants(3)}
-            initial = "initial"
-            animate = "animate"
-            className="rounded-2xl border-4 bg-neutral-800 p-4">
-                <FaNodeJs className="text-7xl text-green-600"/>
-            </motion.div>
+
         </motion.div>
     </div>
   )

@@ -1,4 +1,4 @@
-import AboutMe from '../assets/Kunal Chauhan About.jpg';
+import AboutMe from '../assets/2nd.jpeg';
 import {ABOUT_TEXT} from '../constants/index';
 import { motion } from 'framer-motion';
 const About = () => {
